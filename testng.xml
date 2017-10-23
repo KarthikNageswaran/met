@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  
+ <test name="grc_automation">
+ 	<groups>
+ 		<run>
+ 			<include name="sanity"/>
+ 			<exclude name="regression"/>
+ 		</run>
+ 	</groups>
+    <classes>
+    	<!--       Sanity scripts   -->
+        <class name="com.met.datadriven.sanitytestcases.AOC_form"/>
+        <class name="com.met.datadriven.sanitytestcases.AssetClass_form"/>
+        <class name="com.met.datadriven.sanitytestcases.AOC_report"/>
+        <class name="com.met.datadriven.sanitytestcases.AssetClass_form"/>
+        <class name="com.met.datadriven.sanitytestcases.AssetClass_report"/>
+        <class name="com.met.datadriven.sanitytestcases.Asset_form"/>
+        <class name="com.met.datadriven.sanitytestcases.Standard_form"/>
+        <class name="com.met.datadriven.sanitytestcases.Evidence_form"/>
+        <class name="com.met.datadriven.sanitytestcases.FinancialAccount_form"/>
+        <class name="com.met.datadriven.sanitytestcases.FrameworkReference_form"/>
+		<class name="com.met.datadriven.sanitytestcases.Function_form"/>
+        <class name="com.met.datadriven.sanitytestcases.Objective_form"/>
+		
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

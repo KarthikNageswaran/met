@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.met.datadriven.sanitytestcases.Objective_form">
+        <methods>
+          <include name="closing_browser"/>
+          <include name="objectiveForm_Sanity" invocation-numbers="0"/>
+          <include name="browser_url_access"/>
+        </methods>
+      </class> <!-- com.met.datadriven.sanitytestcases.Objective_form -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

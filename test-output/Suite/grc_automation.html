@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  grc_automation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>grc_automation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 13 17:32:27 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>248 seconds (248438 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td>regression </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.AOC_report.aoc_report_validation()'><b>aoc_report_validation</b><br>Test class: com.met.datadriven.sanitytestcases.AOC_report<br>Parameters: Bella.Bader, welcome*12, AOC Sanity Test1</td>
+<td></td>
+<td>37</td>
+<td>com.met.datadriven.sanitytestcases.AOC_report@6bf256fa</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.AOC_form.areaOfComplianceAllData()'><b>areaOfComplianceAllData</b><br>Test class: com.met.datadriven.sanitytestcases.AOC_form<br>Parameters: Bella.Bader, welcome*12, AOC Sanity Test1, aoc desc, Corporate,Deposit, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, , , Owner Organizations</td>
+<td></td>
+<td>81</td>
+<td>com.met.datadriven.sanitytestcases.AOC_form@1554909b</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.Asset_form.assetFormData()'><b>assetFormData</b><br>Test class: com.met.datadriven.sanitytestcases.Asset_form<br>Parameters: Bella.Bader, welcome*12, Asset Sanity Test1, Level 1, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, Owner Organizations, Asset Classes:Asset class Sanity Test1</td>
+<td></td>
+<td>105</td>
+<td>com.met.datadriven.sanitytestcases.Asset_form@13969fbe</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.AssetClass_report.assetclass_report_validation()'><b>assetclass_report_validation</b><br>Test class: com.met.datadriven.sanitytestcases.AssetClass_report<br>Parameters: Bella.Bader, welcome*12, Asset class Sanity Test1</td>
+<td></td>
+<td>36</td>
+<td>com.met.datadriven.sanitytestcases.AssetClass_report@2f7a2457</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.AssetClass_form.assetclass_sanity_form()'><b>assetclass_sanity_form</b><br>Test class: com.met.datadriven.sanitytestcases.AssetClass_form<br>Parameters: Bella.Bader, welcome*12, Asset class Sanity Test1, Level 1, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, Owner Organizations</td>
+<td></td>
+<td>88</td>
+<td>com.met.datadriven.sanitytestcases.AssetClass_form@67b64c45</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.Evidence_form.evidenceData()'><b>evidenceData</b><br>Test class: com.met.datadriven.sanitytestcases.Evidence_form<br>Parameters: Bella.Bader, welcome*12, Evidence sanity test1, C:\Users\knageswaran\Documents\Username_Password.xls, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, Owner Organizations, Standards:Std Sanity Test1</td>
+<td></td>
+<td>105</td>
+<td>com.met.datadriven.sanitytestcases.Evidence_form@6108b2d7</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.FinancialAccount_form.financialAccountData()'><b>financialAccountData</b><br>Test class: com.met.datadriven.sanitytestcases.FinancialAccount_form<br>Parameters: Bella.Bader, welcome*12, Financial Account Sanity Test10, Assets, Equity, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, Owner Organizations</td>
+<td></td>
+<td>92</td>
+<td>com.met.datadriven.sanitytestcases.FinancialAccount_form@6442b0a6</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.FrameworkReference_form.frameworkReferenceData()'><b>frameworkReferenceData</b><br>Test class: com.met.datadriven.sanitytestcases.FrameworkReference_form<br>Parameters: Bella.Bader, welcome*12, Framework Reference Sanity Test10, Control, External, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, Owner Organizations</td>
+<td></td>
+<td>91</td>
+<td>com.met.datadriven.sanitytestcases.FrameworkReference_form@566776ad</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.Function_form.functionData()'><b>functionData</b><br>Test class: com.met.datadriven.sanitytestcases.Function_form<br>Parameters: Bella.Bader, welcome*12, Function Sanity Test10, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, Owner Organizations</td>
+<td></td>
+<td>81</td>
+<td>com.met.datadriven.sanitytestcases.Function_form@6aaa5eb0</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.Objective_form.objectiveForm_Sanity()'><b>objectiveForm_Sanity</b><br>Test class: com.met.datadriven.sanitytestcases.Objective_form<br>Parameters: Bella.Bader, welcome*12, Business Objective Sanity Test10, Business Objective, Level 1, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader12,Stan.Smith, Owner Organizations</td>
+<td></td>
+<td>121</td>
+<td>com.met.datadriven.sanitytestcases.Objective_form@4411d970</td></tr>
+<tr>
+<td title='com.met.datadriven.sanitytestcases.Standard_form.standardData()'><b>standardData</b><br>Test class: com.met.datadriven.sanitytestcases.Standard_form<br>Parameters: Bella.Bader, welcome*12, Std Sanity Test1, Level 1, GRC - Enterprise Risk,GRC - Compliance, Bella.Bader,Stan.Smith, Owner Organizations, Areas of Compliance:AOC Sanity Test1</td>
+<td></td>
+<td>104</td>
+<td>com.met.datadriven.sanitytestcases.Standard_form@7e0ea639</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="methods">
+  <test name="grc_automation(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.met.datadriven.sanitytestcases.FinancialAccount_form">
+        <methods>
+          <include name="browser_url_access"/>
+        </methods>
+      </class> <!-- com.met.datadriven.sanitytestcases.FinancialAccount_form -->
+      <class name="com.met.datadriven.sanitytestcases.Function_form">
+        <methods>
+          <include name="browser_url_access"/>
+        </methods>
+      </class> <!-- com.met.datadriven.sanitytestcases.Function_form -->
+      <class name="com.met.datadriven.sanitytestcases.FrameworkReference_form">
+        <methods>
+          <include name="browser_url_access"/>
+        </methods>
+      </class> <!-- com.met.datadriven.sanitytestcases.FrameworkReference_form -->
+      <class name="com.met.datadriven.sanitytestcases.Objective_form">
+        <methods>
+          <include name="objectiveForm_Sanity" invocation-numbers="0"/>
+          <include name="browser_url_access"/>
+        </methods>
+      </class> <!-- com.met.datadriven.sanitytestcases.Objective_form -->
+    </classes>
+  </test> <!-- grc_automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <test name="AreaOfCompliance(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="com.met.datadriven.sanitytestcases.AOC_form">
+        <methods>
+          <include name="browser_url_access"/>
+          <include name="closing_browser"/>
+          <include name="areaOfComplianceAllData" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.met.datadriven.sanitytestcases.AOC_form -->
+      <class name="com.met.datadriven.sanitytestcases.AOC_report">
+        <methods>
+          <include name="report_validation" invocation-numbers="0"/>
+          <include name="openbrowser_url"/>
+        </methods>
+      </class> <!-- com.met.datadriven.sanitytestcases.AOC_report -->
+    </classes>
+  </test> <!-- AreaOfCompliance(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
